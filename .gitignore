@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Raw / processed data
+data/raw/
+data/processed/
+*.npy
+*.npz
+
+# Model checkpoints / training logs
+*.ckpt
+*.pt
+*.pth
+lightning_logs/
+
+# Temporary archives
+*.zip
+*.tar
+*.tar.gz
+
+# Keep the dissertation TFT checkpoint
+!models/
+!models/tft_dissertation.ckpt
+
+# Local notebook backups
+notebooks/*.before_*.ipynb
+
+# Local raw-data symlink
+data/raw
